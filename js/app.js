@@ -1,6 +1,6 @@
 const booksContainer = document.getElementById("books-container");
-
-function createBookCard(book) {
+const favContainer = document.getElementById("fav-container");
+function createBookCard(book){
     return `
         <article class="overflow-hidden rounded-2xl border border-emerald-900/50 bg-zinc-900 transition duration-300 hover:-translate-y-1 hover:border-emerald-700">
             <img src="${book.image}" alt="${book.title} Cover" class="h-72 w-full object-cover">
@@ -28,5 +28,16 @@ function renderBooks(){
 
     booksContainer.innerHTML = booksHTML;
 }
+function renderFavBooks(){
+    const favBooks = books.filter(book => book.favorite);
+
+    let favHTML = "";
+
+    for(const book of favBooks)
+        favHTML += createBookCard(book);
+
+    favContainer.innerHTML = favHTML;
+}
 
 renderBooks();
+renderFavBooks();
