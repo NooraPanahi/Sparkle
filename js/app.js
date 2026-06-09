@@ -8,6 +8,7 @@ function createBookCard(book) {
                 <div class="mb-4">
                     <h3 class="mb-1 text-xl font-bold text-zinc-100">${book.title}</h3>
                     <p class="text-sm text-zinc-400">${book.author}</p>
+                    <span class="inline-block rounded-full bg-emerald-900/50 px-2 py-1 text-xs text-emerald-300">${book.genre} </span>
                 </div>
                 <div class="mb-4 flex items-center justify-between">
                     <span class="rounded-full bg-emerald-900 px-3 py-1 text-sm text-emerald-300">⭐ ${book.rating}/10 </span>
