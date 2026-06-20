@@ -14,7 +14,6 @@ function createBookCard(book){
                     <span class="rounded-full bg-emerald-900 px-3 py-1 text-sm text-emerald-300">⭐ ${book.rating}/10 </span>
                     <span class="rounded-full bg-zinc-800 px-3 py-1 text-sm text-zinc-300">${book.status}</span>
                 </div>
-                <p class="text-sm leading-relaxed text-zinc-300">${book.note}</p>
             </div>
         </article>
     `;

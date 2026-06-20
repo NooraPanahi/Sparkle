@@ -6,7 +6,6 @@ const books = [
         favorite: false,
         rating: 0,
         status: "Currently reading",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1709092104i/439979.jpg"
     },
     {
@@ -16,7 +15,6 @@ const books = [
         favorite: false,
         rating: 8.5,
         status: "read",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1348347289i/1967070.jpg"
     },
     {
@@ -26,7 +24,6 @@ const books = [
         favorite: false,
         rating: 8,
         status: "read",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1450515891i/18692431.jpg"
     },
     {
@@ -36,7 +33,6 @@ const books = [
         favorite: false,
         rating: 10,
         status: "read",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1494333138i/33385229.jpg"
     },
     {
@@ -46,7 +42,6 @@ const books = [
         favorite: false,
         rating: 9,
         status: "read",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1647651404i/59723790.jpg"
     },
     {
@@ -56,7 +51,6 @@ const books = [
         favorite: true,
         rating: 10,
         status: "read",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1367545443i/157993.jpg"
     },
     {
@@ -66,7 +60,6 @@ const books = [
         favorite: false,
         rating: 5,
         status: "read",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1542140881i/42771492.jpg"
     },
     {
@@ -76,7 +69,6 @@ const books = [
         favorite: false,
         rating: 7,
         status: "read",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1647450251i/12483882.jpg"
     },
     {
@@ -96,7 +88,6 @@ const books = [
         favorite: false,
         rating: 7,
         status: "read",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1675415256i/84162143.jpg"
     },
     {
@@ -106,7 +97,6 @@ const books = [
         favorite: false,
         rating: 10,
         status: "read",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1432024973i/25547097.jpg"
     },
     {
@@ -116,7 +106,6 @@ const books = [
         favorite: false,
         rating: 9,
         status: "read",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1557576892i/43307609.jpg"
     },
     {
@@ -126,7 +115,6 @@ const books = [
         favorite: false,
         rating: 9,
         status: "read",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1525192086i/40018205.jpg"
     },
     {
@@ -136,7 +124,6 @@ const books = [
         favorite: false,
         rating: 10,
         status: "read",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1407023871i/863466.jpg"
     },
     {
@@ -146,7 +133,6 @@ const books = [
         favorite: false,
         rating: 9.5,
         status: "read",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1340203298i/6627313.jpg"
     },
     {
@@ -156,7 +142,6 @@ const books = [
         favorite: false,
         rating: 9.5,
         status: "read",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1737468416i/45186042.jpg"
     },   
     {
@@ -166,7 +151,6 @@ const books = [
         favorite: false,
         rating: 6,
         status: "read",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1502799960i/26115894.jpg"
     },  
     {
@@ -176,7 +160,6 @@ const books = [
         favorite: true,
         rating: 10,
         status: "read",
-        note: "a note",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1368252673i/1290733.jpg"
     },
 
