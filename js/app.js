@@ -3,7 +3,7 @@ const favContainer = document.getElementById("fav-container");
 function createBookCard(book){
     return `
         <article class="overflow-hidden rounded-2xl border border-emerald-900/50 bg-zinc-900 transition duration-300 hover:-translate-y-1 hover:border-emerald-700">
-            <img src="${book.image}" alt="${book.title} Cover" class="h-72 w-full object-cover">
+            <img src="${book.image}" alt="${book.title} Cover" class="h-56 w-full object-cover">
             <div class="p-5">
                 <div class="mb-4">
                     <h3 class="mb-1 text-xl font-bold text-zinc-100">${book.title}</h3>
