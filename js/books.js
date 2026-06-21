@@ -162,5 +162,346 @@ const books = [
         status: "read",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1368252673i/1290733.jpg"
     },
-
+    {
+        title: "The Night Gardener",
+        author: "Jonathan Auxier",
+        genre: "Fantasy",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1511357999i/36641514.jpg"
+    },
+    {
+        title: "The Fall",
+        author: "Albert Camus",
+        genre: "Philosophy",
+        favorite: false,
+        rating: 6,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1340263844i/440009.jpg"
+    },
+    {
+        title: "Beartown",
+        author: "Fredrik Backman",
+        genre: "Sports",
+        favorite: false,
+        rating: 9.5,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1508701635i/36458891.jpg"
+    },
+    {
+        title: "Daisy Jones & The Six",
+        author: "Taylor Jenkins Reid",
+        genre: "Music",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1580255154i/40597810.jpg"
+    },
+    {
+        title: "The Girl Who Drank the Moon",
+        author: "Kelly Barnhill",
+        genre: "Fantasy",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1500815655i/35786087.jpg"
+    },
+    {
+        title: "سمفونی مردگان",
+        author: "Abbas Maroufi",
+        genre: "Drama",
+        favorite: true,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1525518674i/300905.jpg"
+    },
+    {
+        title: "Dark Places",
+        author: "Gillian Flynn",
+        genre: "Drama",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1520801060i/39117616.jpg"
+    },
+    {
+        title: "Every Day",
+        author: "David Levithan",
+        genre: "Romance",
+        favorite: false,
+        rating: 9,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1548707644i/43733184.jpg"
+    },
+    {
+        title: "The Midnight Library",
+        author: "Matt Haig",
+        genre: "Fantasy",
+        favorite: false,
+        rating: 9.5,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1689396645i/61160034.jpg"
+    },
+    {
+        title: "Everything You Want Me to Be",
+        author: "Mindy Mejia",
+        genre: "Thriller",
+        favorite: false,
+        rating: 8,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1583252866i/52051034.jpg"
+    },
+    {
+        title: "Tolstoy and the Purple Chair",
+        author: "Nina Sankovitch",
+        genre: "Memoir",
+        favorite: false,
+        rating: 6,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1526460810i/40130544.jpg"
+    },
+    {
+        title: "قهوه سرد آقای نویسنده",
+        author: "Rouzbeh Moein",
+        genre: "Fiction",
+        favorite: false,
+        rating: 4,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1494532025i/34996810.jpg"
+    },
+    {
+        title: "The Orange Girl",
+        author: "Jostein Gaarder",
+        genre: "Philosophy",
+        favorite: false,
+        rating: 7,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1206528383i/1907140.jpg"
+    },
+    {
+        title: "Five Feet Apart",
+        author: "Rachael Lippincott",
+        genre: "Romance",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1601909511i/49385152.jpg"
+    },
+    {
+        title: "تکه‌هایی از یک کل منسجم",
+        author: "Poune Moghimi",
+        genre: "Self Help",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1562867614l/52882322.jpg"
+    },
+    {
+        title: "Big Panda & Tiny Dragon",
+        author: "James Norbury",
+        genre: "Self Help",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1668501457i/59434716.jpg"
+    },
+    {
+        title: "The Boy, the Mole, the Fox and the Horse",
+        author: "Charlie Macksey",
+        genre: "Self Help",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1590333444i/53426212.jpg"
+    },
+    {
+        title: "Letter to a Child Never Born",
+        author: "Oriana Fallaci",
+        genre: "Philosophy",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1722459322i/13589193.jpg"
+    },
+    {
+        title: "Animal Farm",
+        author: "George Orwell",
+        genre: "Politics",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1523391696i/39797515.jpg"
+    },
+    {
+        title: "1984",
+        author: "George Orwell",
+        genre: "Politics",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1657781256i/61439040.jpg"
+    },
+    {
+        title: "Before the Coffee Gets Cold",
+        author: "Toshikazu Kawaguchi",
+        genre: "Fantasy",
+        favorite: false,
+        rating: 9,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1625291917i/58476931.jpg"
+    },
+    {
+        title: "The Stranger",
+        author: "Albert Camus",
+        genre: "Philosophy",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1709092156i/440020.jpg"
+    },
+    {
+        title: "Caligula",
+        author: "Albert Camus",
+        genre: "Philosophy",
+        favorite: false,
+        rating: 8,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1340264003i/1314073.jpg"
+    },
+    {
+        title: "The sadness of beautiful things",
+        author: "Simon Van Booy",
+        genre: "Short Stories",
+        favorite: false,
+        rating: 7,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1590116448i/53458209.jpg"
+    },
+    {
+        title: "Tomorrow, and Tomorrow, and Tomorrow",
+        author: "Gabrielle Zevin",
+        genre: "Fiction",
+        favorite: false,
+        rating: 8,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1675886907i/106810309.jpg"
+    },
+    {
+        title: "Ties",
+        author: "Domenico Starnone",
+        genre: "Fiction",
+        favorite: true,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1647767173i/60652466.jpg"
+    },
+    {
+        title: "The Last Movement",
+        author: "Robert Seethaler",
+        genre: "Fiction",
+        favorite: false,
+        rating: 9,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1738747053i/226833149.jpg"
+    },
+    {
+        title: "And Every Morning The Way Home Gets Longer",
+        author: "Fredrik Backman",
+        genre: "Fiction",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1488837541i/34496368.jpg"
+    },
+    {
+        title: "The Deal of a Lifetime",
+        author: "Fredrik Backman",
+        genre: "Fiction",
+        favorite: false,
+        rating: 9,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1521885663i/39391552.jpg"
+    },
+    {
+        title: "Anxious People",
+        author: "Fredrik Backman",
+        genre: "Fiction",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1588328188i/53305541.jpg"
+    },
+    {
+        title: "Us Against You",
+        author: "Fredrik Backman",
+        genre: "Sports",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1546073459i/42102001.jpg"
+    },
+    {
+        title: "The Winners",
+        author: "Fredrik Backman",
+        genre: "Sports",
+        favorite: false,
+        rating: 8,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1680789080i/125635921.jpg"
+    },
+    {
+        title: "My Grandmother Asked Me to Tell You She's Sorry",
+        author: "Fredrik Backman",
+        genre: "Fiction",
+        favorite: false,
+        rating: 9,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1486495505i/34189555.jpg"
+    },
+    {
+        title: "Around the World in Eighty Days",
+        author: "Jules Verne",
+        genre: "Classic",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1726227588i/367872.jpg"
+    },
+    {
+        title: "If Cats Disappeared from the World",
+        author: "Genki Kawamura",
+        genre: "Fantasy",
+        favorite: false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1542377525i/40740914.jpg"
+    },
+    {
+        title: "Into The Wild",
+        author: "Jon Krakauer",
+        genre: "Adventure",
+        favorite: true,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1658489621i/61651904.jpg"
+    },
+    {
+        title: "Tante Rosa",
+        author: "JSevgi Soysal",
+        genre: "Feminism",
+        favorite: true,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1762509847i/243669446.jpg"
+    },
+    {
+        title: "Eight Perfect Murders",
+        author: "Peter Swanson",
+        genre: "Mystery",
+        favorite: false,
+        rating: 9,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1593612903i/54350591.jpg"
+    },
 ];
