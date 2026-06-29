@@ -5,27 +5,51 @@
   <title>Sparkle</title> <!-- add an icon perhaps-->
 </head>
 <body class="bg-zinc-950 text-zinc-100">
-    <nav id="navbar" class="sticky top-0 border-b border-emerald-900/40 bg-zinc-950/80 backdrop-blur">
+    <nav id="navbar" class="sticky top-0 z-50 border-b border-emerald-900/40 bg-zinc-950/80 backdrop-blur">
         <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 md:px-6">
-            <h1 class="text-lg font-bold text-emerald-400 md:text-xl"> Sparkle </h1>
-            <ul class="flex gap-3 text-xs text-zinc-300 md:gap-6 md:text-sm">
-                <li>
-                    <a href="#hero" class="hover:text-emerald-400">Home</a>
-                </li>
-                <li>
-                    <a href="#library" class="hover:text-emerald-400">Library</a>
-                </li>
-                <li>
-                    <a href="#favorites" class="hover:text-emerald-400">Favorites</a>
-                </li>
-                <li>
-                    <a href="#tbr" class="hover:text-emerald-400">TBR</a>
-                </li>
-                <li>
-                    <a href="#about" class="hover:text-emerald-400">About</a>
-                </li>
-            </ul>
+            <!--logo-->
+                <a href="#hero" class="text-lg font-bold text-emerald-400 md:text-xl">Sparkle</a>
+                <!--desktop navigation-->
+                <ul id="nav-menu" class="hidden items-center gap-6 text-sm text-zinc-300 md:flex">
+                    <li> 
+                        <a href="#hero" class="transition hover:text-emerald-400">Home</a>
+                    </li>
+                    <li>
+                        <a href="#library" class="transition hover:text-emerald-400">Library</a>
+                    </li>       
+                    <li>
+                        <a href="#favorites" class="transition hover:text-emerald-400">Favorites</a>
+                    </li>
+                    <li>
+                        <a href="#tbr" class="transition hover:text-emerald-400">TBR</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="transition hover:text-emerald-400">About</a>
+                    </li>             
+                </ul>
+                <button id="menu-btn" class="flex items-center justify-center text-3xl text-zinc-200 transition hover:text-emerald-400 md:hidden"
+                        aria-label="Open menu"> ☰ 
+                </button>
         </div>
+                <div id="mobile-menu" class="hidden border-t border-emerald-900/30 bg-zinc-950 md:hidden">
+                    <ul id="mobile-nav-links" class="flex flex-col px-6 py-4 text-zinc-300">
+                        <li>
+                            <a href="#hero" class="block rounded-lg px-3 py-3 transition hover:bg-zinc-900 hover:text-emerald-400">Home</a>
+                        </li>
+                        <li>
+                            <a href="#library" class="block rounded-lg px-3 py-3 transition hover:bg-zinc-900 hover:text-emerald-400">Library</a>
+                        </li>
+                        <li>
+                            <a href="#favorites" class="block rounded-lg px-3 py-3 transition hover:bg-zinc-900 hover:text-emerald-400">Favorites</a>
+                        </li>
+                        <li>
+                            <a href="#tbr" class="block rounded-lg px-3 py-3 transition hover:bg-zinc-900 hover:text-emerald-400">TBR</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="block rounded-lg px-3 py-3 transition hover:bg-zinc-900 hover:text-emerald-400">About</a>
+                        </li>
+                    </ul>
+                </div>
     </nav>    
     <header id="hero" class="mx-auto flex min-h-[60vh] max-w-6xl flex-col items-center justify-center px-6 py-16 text-center md:min-h-[70vh] md:py-24">
          <h1 class="text-4xl font-bold text-emerald-400 md:text-6xl">Sparkle</h1>
