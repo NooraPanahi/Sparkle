@@ -1,6 +1,20 @@
 const booksContainer = document.getElementById("books-container");
 const favContainer = document.getElementById("fav-container");
 const tbrContainer = document.getElementById("tbr-container");
+const menuBtn = document.getElementById("menu-btn");
+const mobileMenu = document.getElementById("mobile-menu");
+const mobileNavLinks = document.querySelectorAll("#mobile-nav-links a");
+
+menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+});
+
+mobileNavLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        mobileMenu.classList.add("hidden");
+    });
+});
+
 function createBookCard(book){
     return `
         <article class="overflow-hidden rounded-2xl border border-emerald-900/50 bg-zinc-900 transition duration-300 hover:-translate-y-1 hover:border-emerald-700">
