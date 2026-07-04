@@ -1,13 +1,13 @@
 const books = [
     {
-        title: "The Plague",
-        author: "Albert Camus",
-        genre: "Philosophy",
+        title: "White Nights",
+        author: "Fyodor Dostoevsky",
+        genre: "Classics",
         favorite: false,
         tbr : false,
         rating: 0,
-        status: "Currently reading",
-        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1709092104i/439979.jpg"
+        status: "currently reading",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1670583279i/10005316.jpg"
     },
     {
         title: "آینه در آینه",
@@ -18,6 +18,16 @@ const books = [
         rating: 10,
         status: "Currently reading",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1221896297i/2767368.jpg"
+    },
+    {
+        title: "The Plague",
+        author: "Albert Camus",
+        genre: "Philosophy",
+        favorite: false,
+        tbr : false,
+        rating: 7,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1709092104i/439979.jpg"
     },
     {
         title: "Coraline: The Graphic Novel",
@@ -691,16 +701,6 @@ const books = [
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1709815661i/209594857.jpg"
     },
     {
-        title: "White Nights",
-        author: "Fyodor Dostoevsky",
-        genre: "Classics",
-        favorite: false,
-        tbr : true,
-        rating: 0,
-        status: "tbr",
-        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1670583279i/10005316.jpg"
-    },
-    {
         title: "Beirut 75",
         author: "Ghada Samman",
         genre: "Fiction",
@@ -709,5 +709,25 @@ const books = [
         rating: 0,
         status: "tbr",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1510995161i/36616427.jpg"
+    },
+    {
+        title: "His Bloody Project",
+        author: "Graeme Macrae Burnet",
+        genre: "Crime",
+        favorite: false,
+        tbr: true,
+        rating: 0,
+        status: "tbr",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1433870239i/25694617.jpg"
+    },
+    {
+        title: "The Ballad of the Sad Café",
+        author: "Carson McCullers",
+        genre: "Short Stories",
+        favorite: false,
+        tbr: true,
+        rating: 0,
+        status: "tbr",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1617983998i/57677164.jpg"
     },
 ];
