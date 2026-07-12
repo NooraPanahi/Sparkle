@@ -1,13 +1,13 @@
 const books = [
     {
-        title: "White Nights",
-        author: "Fyodor Dostoevsky",
-        genre: "Classics",
+        title: "بوف کور",
+        author: "Sadegh Hedayat",
+        genre: "Fiction",
         favorite: false,
         tbr : false,
         rating: 0,
         status: "currently reading",
-        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1670583279i/10005316.jpg"
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1709043680i/171942.jpg"
     },
     {
         title: "آینه در آینه",
@@ -18,6 +18,16 @@ const books = [
         rating: 10,
         status: "Currently reading",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1221896297i/2767368.jpg"
+    },
+    {
+        title: "White Nights",
+        author: "Fyodor Dostoevsky",
+        genre: "Classics",
+        favorite: false,
+        tbr : false,
+        rating: 10,
+        status: "read",
+        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1670583279i/10005316.jpg"
     },
     {
         title: "The Plague",
@@ -659,16 +669,6 @@ const books = [
         rating: 0,
         status: "tbr",
         image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1726685281i/195430687.jpg"
-    },
-    {
-        title: "بوف کور",
-        author: "Sadegh Hedayat",
-        genre: "Fiction",
-        favorite: false,
-        tbr : true,
-        rating: 0,
-        status: "tbr",
-        image: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1709043680i/171942.jpg"
     },
     {
         title: "Ugliness: A Cultural History",
