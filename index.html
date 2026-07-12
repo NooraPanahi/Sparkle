@@ -3,71 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://c.vazirweb.ir/cdn/tailwind/3.4.10/tailwind.play.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>   
+    <script>
+    tailwind.config = {
+        darkMode: "class",
+    };
+    </script>
     <title>Sparkle</title>
 </head>
-<body class="bg-zinc-950 text-zinc-100">
-    <nav id="navbar" class="sticky top-0 z-50 border-b border-emerald-900/40 bg-zinc-950/80 backdrop-blur">
+<body class="bg-zinc-100 text-zinc-900 transition-colors duration-300 dark:bg-zinc-950 dark:text-zinc-100">
+    <nav id="navbar" class="sticky top-0 z-50 border-b border-emerald-900/40 bg-white/80 backdrop-blur transition-colors dark:bg-zinc-950/80">
         <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 md:px-6">
-            <!--logo-->
-                <a href="#hero" class="text-lg font-bold text-emerald-400 md:text-xl">Sparkle</a>
-                <!--desktop navigation-->
-                <ul id="nav-menu" class="hidden items-center gap-6 text-sm text-zinc-300 md:flex">
-                    <li> 
-                        <a href="#hero" class="transition hover:text-emerald-400">Home</a>
-                    </li>
-                    <li>
-                        <a href="#library" class="transition hover:text-emerald-400">Library</a>
-                    </li>       
-                    <li>
-                        <a href="#favorites" class="transition hover:text-emerald-400">Favorites</a>
-                    </li>
-                    <li>
-                        <a href="#tbr" class="transition hover:text-emerald-400">TBR</a>
-                    </li>
-                    <li>
-                        <a href="#about" class="transition hover:text-emerald-400">About</a>
-                    </li>             
-                </ul>
-                <button id="menu-btn" class="flex items-center justify-center text-3xl text-zinc-200 transition hover:text-emerald-400 md:hidden"
-                        aria-label="Open menu"> ☰ 
+
+            <!-- Logo -->
+            <a href="#hero" class="text-lg font-bold text-emerald-400 md:text-xl"> Sparkle</a>
+
+            <ul class="hidden items-center gap-6 text-sm text-zinc-700 dark:text-zinc-300 md:flex">
+                <li><a href="#hero" class="transition hover:text-emerald-400">Home</a></li>
+                <li><a href="#library" class="transition hover:text-emerald-400">Library</a></li>
+                <li><a href="#favorites" class="transition hover:text-emerald-400">Favorites</a></li>
+                <li><a href="#tbr" class="transition hover:text-emerald-400">TBR</a></li>
+                <li><a href="#about" class="transition hover:text-emerald-400">About</a></li>
+            </ul>
+
+            <div class="relative flex items-center gap-3">
+
+                <button id="theme-toggle" class="rounded-lg border border-emerald-900/40 bg-white p-2 text-zinc-800 transition hover:bg-zinc-200 dark:bg-zinc-900 dark:text-zinc-100 dark:hover:bg-zinc-800"
+                    aria-label="Toggle theme">
+                    🌙
                 </button>
-        </div>
-                <div id="mobile-menu" class="hidden border-t border-emerald-900/30 bg-zinc-950 md:hidden">
-                    <ul id="mobile-nav-links" class="flex flex-col px-6 py-4 text-zinc-300">
-                        <li>
-                            <a href="#hero" class="block rounded-lg px-3 py-3 transition hover:bg-zinc-900 hover:text-emerald-400">Home</a>
-                        </li>
-                        <li>
-                            <a href="#library" class="block rounded-lg px-3 py-3 transition hover:bg-zinc-900 hover:text-emerald-400">Library</a>
-                        </li>
-                        <li>
-                            <a href="#favorites" class="block rounded-lg px-3 py-3 transition hover:bg-zinc-900 hover:text-emerald-400">Favorites</a>
-                        </li>
-                        <li>
-                            <a href="#tbr" class="block rounded-lg px-3 py-3 transition hover:bg-zinc-900 hover:text-emerald-400">TBR</a>
-                        </li>
-                        <li>
-                            <a href="#about" class="block rounded-lg px-3 py-3 transition hover:bg-zinc-900 hover:text-emerald-400">About</a>
-                        </li>
+
+                <button id="menu-btn" class="text-3xl text-zinc-700 transition hover:text-emerald-400 dark:text-zinc-200 md:hidden"
+                    aria-label="Open menu">
+                    ☰
+                </button>
+
+                <div id="mobile-menu" class="absolute right-0 top-full mt-3 hidden w-52 overflow-hidden rounded-xl border border-emerald-900/30 bg-white shadow-xl dark:bg-zinc-950 md:hidden">
+                    <ul id="mobile-nav-links" class="flex flex-col py-2 text-zinc-700 dark:text-zinc-300">
+                        <li><a href="#hero" class="block px-4 py-3 transition hover:bg-zinc-200 dark:hover:bg-zinc-900">Home</a></li>
+                        <li><a href="#library" class="block px-4 py-3 transition hover:bg-zinc-200 dark:hover:bg-zinc-900">Library</a></li>
+                        <li><a href="#favorites" class="block px-4 py-3 transition hover:bg-zinc-200 dark:hover:bg-zinc-900">Favorites</a></li>
+                        <li><a href="#tbr" class="block px-4 py-3 transition hover:bg-zinc-200 dark:hover:bg-zinc-900">TBR</a></li>
+                        <li><a href="#about" class="block px-4 py-3 transition hover:bg-zinc-200 dark:hover:bg-zinc-900">About</a></li>
                     </ul>
                 </div>
-    </nav>    
+            </div>
+        </div>
+    </nav>
     <header id="hero" class="mx-auto flex min-h-[60vh] max-w-6xl flex-col items-center justify-center px-6 py-16 text-center md:min-h-[70vh] md:py-24">
-         <h1 class="text-4xl font-bold text-emerald-400 md:text-6xl">Sparkle</h1>
-         <p class="mt-4 text-lg text-zinc-300 md:text-xl">My personal reading journey.</p>
-         <p class="mt-2 max-w-xl text-sm text-zinc-500 md:text-base">A place to save books that left a sparkle.</p>
+        <h1 class="text-4xl font-bold text-emerald-400 md:text-6xl">Sparkle</h1>
+        <p class="mt-4 text-lg text-zinc-700 dark:text-zinc-300 md:text-xl">
+            My personal reading journey.
+        </p>
+        <p class="mt-2 max-w-xl text-sm text-zinc-600 dark:text-zinc-500 md:text-base">
+            A place to save books that left a sparkle.
+        </p>    
     </header>
 
     <main>
         <section id="library" class="mx-auto max-w-6xl px-6 py-16 md:py-24">
             <div class="mb-12">
                 <h2 class="mb-3 text-3xl font-bold text-emerald-400 md:text-4xl"> My Library </h2>
-                <p class="max-w-2xl text-sm text-zinc-400 md:text-base">
+                <p class="max-w-2xl text-sm text-zinc-600 dark:text-zinc-400 md:text-base">
                     A collection of books that shaped my journey,
                     inspired new ideas, and left a sparkle behind.</p>
             </div>
-            <div id="books-container" class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5 lx:grid-cols-5"></div>
+            <div id="books-container" class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5 xl:grid-cols-5"></div>
         </section>
         <section id="favorites" class="mx-auto max-w-6xl px-6 py-24">
             <div class="mb-12">
@@ -84,13 +85,13 @@
         <section id="about" class="mx-auto max-w-6xl px-6 py-24">
             <div class="max-w-3xl">
                 <h2 class="mb-4 text-3xl font-bold text-emerald-400 md:text-4xl">About</h2>
-                <p class="mb-6 leading-relaxed text-zinc-300 md:text-base">
+                <p class="mb-6 leading-relaxed text-zinc-700 dark:text-zinc-300 md:text-base">
                     Sparkle is my personal reading journal.
                     A small place where I keep track of books
                     that inspired me, taught me something new,
                     or simply stayed in my mind long after the
                     last page.</p>
-                <p class="leading-relaxed text-zinc-400">
+                <p class="leading-relaxed text-zinc-600 dark:text-zinc-400">
                     I created this project to build a digital
                     bookshelf that grows with me over time.
                     Every book here represents an idea,
@@ -100,7 +101,7 @@
         </section>
     </main>
     <footer class="border-t border-emerald-900/30 py-6 md:py-8">
-        <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 text-center text-sm text-zinc-500 md:flex-row md:text-left">
+        <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 text-center text-sm text-zinc-600 dark:text-zinc-500 md:flex-row md:text-left">
             <p>© 2026 Sparkle</p>
         </div>
     </footer>
